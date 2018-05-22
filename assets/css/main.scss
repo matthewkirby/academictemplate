@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.archive__item-title a {
+  text-decoration: none;
+}
+.archive__item-title a:hover {
+  text-decoration: underline;
+  color: #0292ca;
+}
+
+.talk_date {
+  color: #797D7F;
+  font-size: .7em;
+}
+
+.talk_venue {
+  font-size: .7em;
+}
+
+.small_grey {
+  font-size: .75em;
+}
+
+.cv_font {
+  font-size: .65em;
+}
